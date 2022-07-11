@@ -1,0 +1,28 @@
+body {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Oxygen, sans-serif;
+    color: #45408F;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #E86E68;
+    border: 4px solid #766DF2;
+    cursor: pointer;
+}
+
+.activity-answer{
+    color: black;
+    text-shadow: 0 0 5px #5EEBB7;
+}
